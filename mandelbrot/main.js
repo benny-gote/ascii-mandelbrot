@@ -13,14 +13,14 @@ ideas
 
 const graphP = document.querySelector("#graph");
 const coordP = document.querySelector("#coord");
-const fontSize = 0.6;
+const fontSize = 0.8;
 graphP.style.fontSize = `${fontSize}em`;
 
 // let block = ["&blk14;", "&blk34;", "&block;"]
-let block = " $@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^\' ";
+let block = "$@B%8&WM#*oahkbdpqwmZO0QLCJUYXzcvunxrjft/\\|()1{}[]?-_+~<>i!lI;:,\"^\' ";
 // let block = " ,-=+caxX$&%#@";
 block = block.split('');
-// block.reverse();
+block.reverse();
 
 
 const width = 125;
